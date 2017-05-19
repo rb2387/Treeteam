@@ -36,6 +36,7 @@ public class Github {
 			driver.manage().window().maximize();
 			//JavaScriptExecutor sc = new JavaScriptExecutor(driver);	// TODO Auto-generated method stub
 				System.out.println("we are there");
+				driver.close();
 				System.exit(0);
 		}
 		

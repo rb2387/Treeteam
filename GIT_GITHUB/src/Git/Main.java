@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated constructor stub
 	Github gt = new Github();
 	gt.getProperties();
-	
+	gt.setupserver();
 	}
 	
 }
