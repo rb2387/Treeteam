@@ -10,7 +10,7 @@ public class RunKaraoke {
 		System.out.println(kar);
 		Songbook sb = new Songbook();
 		sb.addSong(kar);
-	System.out.printf("THere are %d %n songs",sb.SongCount());
+	System.out.printf("THere are %d %n songs",sb.SongCount());   
 	}
 
 }
