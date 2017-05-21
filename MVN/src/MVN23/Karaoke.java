@@ -25,4 +25,8 @@ public class Karaoke {
 		return this.url;
 	
 }
+	@Override
+	public String toString(){
+		return String.format("you are play %s by %s",song,artist);
+	}
 }
